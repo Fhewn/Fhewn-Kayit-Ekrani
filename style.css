@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+	background-image: url(img/cool-background.jpg);
+	background-repeat: no-repeat;
+}
+#form1 {
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color:rgba(0,0,102,0.5);
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+}
+#foto {
+	background-image: url(img/login.png);
+	height: 99px;
+	width: 99px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:-70px;
+}
+.abc {
+	height: 35px;
+	width: 180px;
+	margin-left: auto;
+	border-radius: 15px;
+	margin-right: auto;
+}
+#form1 #form2 p #btn1 {
+	background-color: #4D4D4C;
+	height: 40px;
+	width: 120px;
+	font-weight: bold;
+	color: #FFF;
+	margin-top: 45px;
+	margin-left: 34px;
+}
+#form1 #form2 p #btn1:hover {
+	color: #FFF;
+	background-color: #F00;
+	transition-duration:0.5s;
+	cursor:pointer;
+	box-shadow:10px 10px 10px 10px #999999;
+}
+</style>/
+
